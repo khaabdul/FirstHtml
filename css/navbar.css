@@ -1,0 +1,263 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.action a {
+    font-weight: bold;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid rgb(12, 60, 96);
+    height: 100px;
+    align-items: center;
+    background-color: rgb(12, 60, 96);
+
+}
+
+.name h2 {
+    margin-left: 80px;
+    color: white;
+}
+
+.image img {
+    width: 100%;
+    height: 50vh;
+}
+
+.image .content button {
+    height: 60px;
+    width: 200px;
+    text-align: center;
+    background-color: white;
+    font-size: large;
+
+}
+
+.image {
+
+    background: url("../images/home.jpg");
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+    border: none;
+    height: 100vh;
+    display: flex;
+    /* align-items: end; */
+    text-align: center;
+
+}
+
+.image .content h1 {
+    padding: 10px;
+}
+
+.image .content {
+    height: fit-content;
+    width: fit-content;
+    border: 2px;
+    padding: 30px;
+    background-color: white;
+    margin-inline: auto;
+    margin-top: auto;
+}
+
+.image .content button:hover {
+    background-color: rgb(12, 60, 96);
+    color: white;
+}
+
+.data {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+
+}
+
+.data .service {
+    flex-basis: 30%;
+    border: none;
+    height: fit-content;
+    text-align: center;
+    padding: 10px;
+}
+
+.data .service button {
+    height: 50px;
+    width: 130px;
+    font-size: medium;
+    background-color: white;
+}
+
+.data .service .bt {
+    margin-top: 20px;
+}
+
+.data .service button:hover {
+    background-color: rgb(12, 60, 96);
+    color: white;
+}
+
+.nav .action a:hover {
+    color: red;
+}
+
+.about {
+    border: none;
+    height: fit-content;
+    width: 100%;
+    text-align: center;
+    background: url("../images/background.jpg");
+    background-size: 100% 100vh;
+    padding-bottom: 50px;
+
+
+}
+
+.about .about-cont p {
+    padding: 20px;
+}
+
+.about .about-cont {
+    padding-top: 50px;
+    border: none;
+    height: fit-content;
+    width: 60%;
+    margin-inline: auto;
+}
+
+.about .about-cont button {
+    height: 50px;
+    width: 130px;
+    font-size: medium;
+    background-color: white;
+}
+
+.about .about-cont button:hover {
+    background-color: rgb(12, 60, 96);
+    color: white;
+}
+
+.client {
+    border: none;
+    margin-top: 80px;
+}
+
+.client .heading {
+    text-align: center;
+}
+
+.client .client-c img {
+    width: 300px;
+    height: 300px;
+}
+
+.client .client-img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-c {
+    border: none;
+    text-align: center;
+    padding-top: 50px;
+    height: fit-content;
+    padding-bottom: 50px;
+    color: white;
+    background-color: #0c3c60;
+}
+.form-d {
+    border: none;
+    text-align: left;
+    width: 50%;
+    height: 50%;
+    margin-inline: auto;
+    margin-top: 20px;
+    font-size: medium;
+    background-color: #0c3c60;
+}
+.name {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.name .f-name {
+    white-space: pre;
+}
+.name .m-name {
+    white-space: pre;
+    padding-right: 80px;
+}
+.name input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+    height: 30px;
+    width: 250px;
+    color: white;
+}
+input [type="focus"]
+{
+    border-top: none;
+}
+.name label {
+    color: white;
+}
+
+.name button {
+    height: 50px;
+    width: 250px;
+    font-size: medium;
+    background-color: white;
+    border: 1px solid white;
+    transition: all 0.3s ease;
+}
+
+.name .bt {
+    margin-top: 15px;
+}
+
+.name button:hover {
+    background: transparent;
+    color: white;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-between;
+    background-color: #072136;
+    color: white;
+}
+
+.foot .foot-1 {
+    margin: 20px;
+    padding: 20px;
+}
+.foot-1 {
+text-align: left;
+}
+.foot-1 ul{
+    text-align: left;
+}
+.foot-1 a{
+    color: white;
+}
+.foot-1 h3{
+    padding-bottom: 10px ;
+}
+.foot-1 ul li a:hover{
+    color: #0c3c60;;
+}
+.foot-1 li{
+    padding-top: 10px;
+}
